@@ -30,7 +30,6 @@ const day28TempC = 17;
 const day29TempF = 76;
 const day30TempC = 29;
 
-// Convert Fahrenheit temperatures to Celsius
 const day1TempC = (day1TempF - 32) * 5 / 9;
 const day3TempC = (day3TempF - 32) * 5 / 9;
 const day5TempC = (day5TempF - 32) * 5 / 9;
@@ -47,7 +46,6 @@ const day25TempC = (day25TempF - 32) * 5 / 9;
 const day27TempC = (day27TempF - 32) * 5 / 9;
 const day29TempC = (day29TempF - 32) * 5 / 9;
 
-// Convert Celsius temperatures to Fahrenheit
 const day2TempF = (day2TempC * 9 / 5) + 32;
 const day4TempF = (day4TempC * 9 / 5) + 32;
 const day6TempF = (day6TempC * 9 / 5) + 32;
@@ -64,19 +62,14 @@ const day26TempF = (day26TempC * 9 / 5) + 32;
 const day28TempF = (day28TempC * 9 / 5) + 32;
 const day30TempF = (day30TempC * 9 / 5) + 32;
 
-// Calculate total temperature in Fahrenheit
 const tot_temperature_in_fahrenheit = day1TempF + day2TempF + day3TempF + day4TempF + day5TempF + day6TempF + day7TempF + day8TempF + day9TempF + day10TempF + day11TempF + day12TempF + day13TempF + day14TempF + day15TempF + day16TempF + day17TempF + day18TempF + day19TempF + day20TempF + day21TempF + day22TempF + day23TempF + day24TempF + day25TempF + day26TempF + day27TempF + day28TempF + day29TempF + day30TempF;
 
-// Calculate total temperature in Celsius
 const tot_temperature_in_celsius = day1TempC + day2TempC + day3TempC + day4TempC + day5TempC + day6TempC + day7TempC + day8TempC + day9TempC + day10TempC + day11TempC + day12TempC + day13TempC + day14TempC + day15TempC + day16TempC + day17TempC + day18TempC + day19TempC + day20TempC + day21TempC + day22TempC + day23TempC + day24TempC + day25TempC + day26TempC + day27TempC + day28TempC + day29TempC + day30TempC;
 
-// Calculate average temperature in Fahrenheit
 const avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 30;
 
-// Calculate average temperature in Celsius
 const avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
 
-// Display the results
 console.log("Total temperature in Fahrenheit:", tot_temperature_in_fahrenheit);
 console.log("Total temperature in Celsius:", tot_temperature_in_celsius);
 console.log("Average temperature in Fahrenheit:", avg_temperature_in_fahrenheit);
